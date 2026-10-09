@@ -1,0 +1,2 @@
+/bin/bash delete_users.sh
+/bin/bash create_users.sh
