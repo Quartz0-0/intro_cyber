@@ -8,7 +8,7 @@ usernames=("atanaka" "alee" "rpatel")
 # create the users by looping through the array
 for username in "${usernames[@]}"
 do
-    sudo userdelete -m "$username"
+    sudo userdelete "$username"
 done
 
 echo "Successfully deleted users"
